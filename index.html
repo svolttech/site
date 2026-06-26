@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="SvoltTech: consultoria Sankhya, SQL Server, integrações, Power BI, automação de processos e IA aplicada a negócios."
+    />
+    <title>SvoltTech | Sankhya, Dados e Automação</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#inicio" aria-label="SvoltTech">
+        <span class="brand-mark">
+          <img src="./assets/icone_logo_dark.png" alt="" />
+        </span>
+        <span>SvoltTech</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" data-nav-toggle>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" data-nav>
+        <a href="#servicos">Servicos</a>
+        <a href="#cases">Cases</a>
+        <a href="#diagnostico">Diagnostico</a>
+        <a href="#blog">Blog</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio">
+        <img class="hero-media" src="./assets/svolttech-hero.png" alt="" />
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Sankhya, dados e automacao empresarial</p>
+          <h1>Transformamos processos em resultados mensuraveis.</h1>
+          <p class="hero-copy">
+            Consultoria em ERP Sankhya, SQL Server, Power BI, integracoes e IA para empresas que precisam reduzir
+            retrabalho, ganhar produtividade e enxergar melhor a operacao.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#diagnostico">Fazer diagnostico</a>
+            <a class="button secondary" href="#servicos">Ver solucoes</a>
+          </div>
+          <dl class="hero-metrics" aria-label="Diferenciais da SvoltTech">
+            <div>
+              <dt>ERP</dt>
+              <dd>Sankhya</dd>
+            </div>
+            <div>
+              <dt>Dados</dt>
+              <dd>SQL + BI</dd>
+            </div>
+            <div>
+              <dt>Entrega</dt>
+              <dd>Automacao</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="section intro" aria-labelledby="intro-title">
+        <div>
+          <p class="eyebrow">Posicionamento</p>
+          <h2 id="intro-title">Tecnologia para empresas que precisam operar melhor, nao apenas comprar sistemas.</h2>
+        </div>
+        <p>
+          A SvoltTech atua onde processo, dados e sistema se encontram: parametrizacao, desenvolvimento, integracao,
+          relatorios, auditoria de informacoes e automacoes que eliminam atividades repetitivas.
+        </p>
+      </section>
+
+      <section class="section" id="servicos" aria-labelledby="services-title">
+        <div class="section-heading">
+          <p class="eyebrow">Servicos</p>
+          <h2 id="services-title">Soluções para transformar sua operação</h2>
+        </div>
+        <div class="service-grid">
+          <article class="service-card">
+            <span class="icon">ERP</span>
+            <h3>Consultoria Sankhya</h3>
+            <p>Parametrizacoes, regras de negocio, melhorias de fluxo, apoio em operacoes fiscais, financeiras e estoque.</p>
+          </article>
+          <article class="service-card">
+            <span class="icon">SQL</span>
+            <h3>SQL Server</h3>
+            <p>Consultas, procedures, otimizacao, auditoria de dados, rotinas de conciliacao e indicadores operacionais.</p>
+          </article>
+          <article class="service-card">
+            <span class="icon">API</span>
+            <h3>Integracoes</h3>
+            <p>Conexao entre ERP, plataformas externas, bancos de dados, servicos REST e rotinas automatizadas.</p>
+          </article>
+          <article class="service-card">
+            <span class="icon">BI</span>
+            <h3>Power BI</h3>
+            <p>Dashboards gerenciais, indicadores financeiros, acompanhamento de processos e visao executiva.</p>
+          </article>
+          <article class="service-card">
+            <span class="icon">RPA</span>
+            <h3>Automacao de Processos</h3>
+            <p>Reducao de atividades manuais, padronizacao de tarefas e ganhos reais de produtividade.</p>
+          </article>
+          <article class="service-card">
+            <span class="icon">IA</span>
+            <h3>IA Aplicada</h3>
+            <p>Diagnosticos, classificacao de dados, apoio a atendimento, documentos e analises de negocio.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section split-section" id="cases" aria-labelledby="cases-title">
+        <div class="section-heading">
+          <p class="eyebrow">Cases de Sucesso</p>
+          <h2 id="cases-title">Resultados que geram impacto nos negócios</h2>
+          <p>Conheça alguns projetos desenvolvidos pela SvoltTech e veja como ajudamos empresas a otimizar processos, integrar sistemas, automatizar operações e transformar dados em informações estratégicas.</p>
+        </div>
+        <div class="filter-bar" role="list" aria-label="Filtros de cases">
+          <button class="chip active" type="button" data-filter="todos">Todos</button>
+          <button class="chip" type="button" data-filter="erp">ERP</button>
+          <button class="chip" type="button" data-filter="dados">Dados</button>
+          <button class="chip" type="button" data-filter="automacao">Automacao</button>
+        </div>
+        <div class="case-grid">
+          <article class="case-card" data-category="erp automacao">
+            <span>ERP + Automacao</span>
+            <h3>Transferencias parametrizadas</h3>
+            <p>Padronizacao do fluxo de transferencia, reducao de ajustes manuais e maior confiabilidade operacional.</p>
+          </article>
+          <article class="case-card" data-category="dados">
+            <span>Dados</span>
+            <h3>Dashboards gerenciais</h3>
+            <p>Indicadores de operacao, financeiro e produtividade para acompanhamento recorrente da gestao.</p>
+          </article>
+          <article class="case-card" data-category="automacao">
+            <span>Automacao</span>
+            <h3>Rotinas contabeis automatizadas</h3>
+            <p>Menos retrabalho no fechamento e mais rastreabilidade em processos repetitivos de conferencia.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="diagnostic" id="diagnostico" aria-labelledby="diag-title">
+        <div class="diagnostic-copy">
+          <p class="eyebrow"></p>
+          <h2 id="diag-title">Diagnostico rapido de maturidade operacional</h2>
+          <p>
+            Responda a quatro perguntas e descubra o nível de maturidade dos seus processos, dados e automações. Em poucos minutos você recebe uma avaliação inicial e identifica oportunidades de melhoria.
+          </p>
+        </div>
+        <form class="diagnostic-panel" data-diagnostic-form>
+          <label>
+            <span>Os processos principais estao documentados?</span>
+            <select name="processos" required>
+              <option value="">Selecione</option>
+              <option value="3">Sim, atualizados</option>
+              <option value="2">Parcialmente</option>
+              <option value="1">Nao</option>
+            </select>
+          </label>
+          <label>
+            <span>Os dados do ERP sao confiaveis para decisao?</span>
+            <select name="dados" required>
+              <option value="">Selecione</option>
+              <option value="3">Sim</option>
+              <option value="2">Em alguns setores</option>
+              <option value="1">Ainda nao</option>
+            </select>
+          </label>
+          <label>
+            <span>Quanto trabalho manual repetitivo existe?</span>
+            <select name="manual" required>
+              <option value="">Selecione</option>
+              <option value="3">Baixo</option>
+              <option value="2">Medio</option>
+              <option value="1">Alto</option>
+            </select>
+          </label>
+          <label>
+            <span>A gestao acompanha indicadores em tempo habil?</span>
+            <select name="indicadores" required>
+              <option value="">Selecione</option>
+              <option value="3">Sim</option>
+              <option value="2">Com atraso</option>
+              <option value="1">Nao</option>
+            </select>
+          </label>
+          <button class="button primary" type="submit">Calcular maturidade</button>
+          <output class="diagnostic-result" data-diagnostic-result aria-live="polite"></output>
+        </form>
+      </section>
+
+      <section class="section" id="blog" aria-labelledby="blog-title">
+        <div class="section-heading">
+          <p class="eyebrow">Acompanhe conteúdos sobre ERP Sankhya, Power BI, SQL Server, automação de processos e inteligência artificial aplicada à gestão empresarial.</p>
+          <h2 id="blog-title"></h2>
+        </div>
+        <div class="blog-grid">
+          <article>
+            <p>ERP Sankhya</p>
+            <h3>Como preparar o Sankhya para a Reforma Tributaria</h3>
+          </article>
+          <article>
+            <p>SQL Server</p>
+            <h3>Performance em consultas que alimentam indicadores gerenciais</h3>
+          </article>
+          <article>
+            <p>IA aplicada</p>
+            <h3>Onde usar IA no ERP sem comprometer governanca e seguranca</h3>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact" id="contato" aria-labelledby="contact-title">
+        <div>
+          <p class="eyebrow">Contato</p>
+          <h2 id="contact-title">Vamos mapear oportunidades de ganho na sua operacao.</h2>
+          <p>
+            Envie um resumo da necessidade. O formulario valida os dados, salva uma copia local para teste e prepara uma
+            mensagem para WhatsApp.
+          </p>
+          <div class="contact-links">
+            <a href="https://wa.me/5511953592909" target="_blank" rel="noreferrer">WhatsApp</a>
+            <a href="mailto:rafael.lira@svolttech.com.br">E-mail</a>
+          </div>
+        </div>
+        <form class="lead-form" data-lead-form>
+          <label>
+            <span>Nome</span>
+            <input name="nome" type="text" autocomplete="name" required minlength="3" />
+          </label>
+          <label>
+            <span>E-mail</span>
+            <input name="email" type="email" autocomplete="email" required />
+          </label>
+          <label>
+            <span>Empresa</span>
+            <input name="empresa" type="text" autocomplete="organization" required />
+          </label>
+          <label>
+            <span>Principal necessidade</span>
+            <select name="necessidade" required>
+              <option value="">Selecione</option>
+              <option>Consultoria Sankhya</option>
+              <option>SQL Server</option>
+              <option>Integracoes API</option>
+              <option>Power BI</option>
+              <option>Automacao com IA</option>
+            </select>
+          </label>
+          <label>
+            <span>Mensagem</span>
+            <textarea name="mensagem" rows="4" required></textarea>
+          </label>
+          <button class="button primary" type="submit">Enviar interesse</button>
+          <p class="form-status" data-form-status aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>SvoltTech - Todos os direitos reservado.</p>
+      <a href="#inicio">Voltar ao topo</a>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

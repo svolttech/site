@@ -489,3 +489,10 @@ textarea:focus {
     flex-direction: column;
   }
 }
+.brand-logo {
+  display: block;
+  width: 160px;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
